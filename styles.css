@@ -450,11 +450,23 @@ header h1{
     padding: 0;
    }
 
+   *{
+    margin: 0;
+   }
+
+
+  .header-h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+  }
 
   #navbar {
     display: flex;
-    justify-content: space-between;
-    padding: 2.25rem 0 0 0;
+    justify-content: center;
+    gap: 160px;
+    /* justify-content: space-between; */
+    /* padding: 2.25rem 0 0 0; */
   }
 
   #navbar ul {
@@ -501,12 +513,13 @@ header h1{
   #navbar img {
     height: auto;
     width: auto;
-    margin-left: 20px;
+    margin-left: 0;
+    /* margin-left: 30px; */
   }
 
   .menu-icon {
-    display: block; 
-    margin-right: 20px;
+    display: inline-block; 
+    /* margin-right: 30px; */
     
   }
 
@@ -514,10 +527,8 @@ header h1{
     font-size: 42px;
     padding: 20px 25px;
     line-height: 2.5rem;
-    margin: 50% 5%;
-    
-    /* top: 50%;
-    left: 50%; */
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -536,7 +547,7 @@ header h1{
 
 
   .interactive-section img{
-    display: block; /* Makes the image a block element */
+    display: block; 
     margin-left: auto;
     margin-right: auto;
     width: 20.5rem;
@@ -588,7 +599,7 @@ header h1{
 
   .ourcreation-section .content-one button{
     position: absolute;
-    top: 92.5rem;
+    top: 89.5rem;
     height: 40px;
     background-color: hsl(0, 0%, 100%);
     width: 11rem;
